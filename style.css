@@ -5,4 +5,58 @@
 
 body{
     font-family: 'Archivo', sans-serif;
+    overflow-x: hidden;
+}
+
+.max-width{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.drop:hover .drop-content{
+    display: block;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    background-color: #ffe718;
+    min-width: 160px;
+    z-index: 1;
+  }
+.drop-hover:hover .drop{
+      display: block;
+}
+
+nav{
+    top: 20px;
+    position: absolute;
+    position: relative;
+    max-width: 950px;
+    background-color: #222931;
+}
+
+nav ul{
+    width: 950px;
+    margin-left: 25px;
+}
+
+nav > ul li{
+    display: inline-block;
+    padding: 10px;
+} 
+
+
+.hero-img{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.top{
+    margin-top: 650px;
+    display: flex;
+    justify-content: space-between;
 }
