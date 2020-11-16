@@ -57,9 +57,11 @@ header>nav>ul>li>a {
 	text-transform: uppercase;
 }
 
+
 .dropdown-menu i{
 	float: right;
 	font-size: 15px;
+	color: white;
 }
 ul li:hover ul {
 	display: block;
@@ -122,7 +124,7 @@ ul li ul li a {
 	margin: 0 auto;
 	width: 1000px;
 	height: 100px;
-
+	color: #222931 ;
 
 }
 
@@ -138,10 +140,10 @@ ul li ul li a {
 
 .ribbon-container > button{
 	margin-top: 35px;
-	background-color: #222931;
+	background-color: white;
 	padding: 8px 30px;
 	border: none;
-	color: white;
+	
 	text-transform: uppercase;
 	float: right;
 }
@@ -165,6 +167,7 @@ ul li ul li a {
 	justify-content: space-around;
 	position: relative;
 	top: -50px;
+	color: #222931 ;
 }
 
 
@@ -172,6 +175,7 @@ i{
 	float: left;
 	font-size: 50px;
 	margin-right: 20px;
+	color: #222931 ;
 }
 
 .oof{
@@ -181,4 +185,42 @@ i{
 	background-color:yellow;
 	width: 300px;
 	height: 90px;
+}
+
+
+
+
+.footer .left-side{
+	width: 500px;
+	float: left;
+}
+
+.footer .right-side{
+	float: right;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	
+	
+	
+}
+
+.left-side p{
+	margin-right: 30px;
+}
+
+.contact{
+	display: inline-block;
+}
+
+.contact p{
+	margin-top: 40px;
+}
+.contact i{
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.hrlol{
+	margin: 75px 0px;
 }
