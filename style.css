@@ -125,6 +125,82 @@ ul li ul li a {
 	margin: 0 30px
 }
 
+.overlay-test-1, .overlay-test-2, .overlay-test-3{
+	width: 290px;
+	height: 210px;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.overlay-test-1{
+	background-image: url(img/banner-1.jpg);
+}
+
+.overlay-test-2{
+	background-image: url(img/banner-2.jpg);
+}
+
+.overlay-test-3{
+	background-image: url(img/banner-3.jpg);
+}
+
+.child-1,.child-2,.child-3{
+	width: 290px;
+	height: 210px;
+	background: rgba(34,41,49,0.8);
+	opacity: 0;
+	color: white;
+	text-transform: uppercase;
+}
+
+.child-1:hover, .child-2:hover, .child-3:hover{
+	opacity: 1;
+}
+.child-1,.child-2,.child-3 > p{
+	margin: 0;
+	line-height: 210px;
+	
+}
+
+
+
+.child-1 > p{
+	
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.child-2 > p{
+	
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.child-3 > p{
+
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .ribbon{
@@ -153,18 +229,29 @@ ul li ul li a {
 
 
 
-.ribbon-container > button{
-	margin-top: 35px;
+.ribbon-container > a button{
 	background-color: white;
 	padding: 8px 30px;
 	border: none;
-	
+	font-size: 12px;
+	font-weight: ;
 	text-transform: uppercase;
 	float: right;
 }
 
 .ribbon-container > p{
 	margin-left: 10px;
+}
+
+.button-link{
+	margin-top: 35px;
+	background-color: white;
+	padding: 8px 30px;
+	border: none;
+	font-size: 12px;
+	font-weight: ;
+	text-transform: uppercase;
+	float: right;
 }
 
 
@@ -257,7 +344,12 @@ footer{
 .sad{
 	margin: 0 auto;
 	width: 1000px;
-	margin-bottom: 13px;
 	color: white;
+	line-height: 10px;
+	padding: 20px;
+}
+
+.footerNaam{
+	margin:  0;
 }
 
