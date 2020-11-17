@@ -7,6 +7,14 @@
 body{
 	overflow-x: hidden;
 }
+
+p, span{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+
 .main {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -20,6 +28,9 @@ header {
 
 header>nav {
 	background-color: #222931;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
 }
 
 header>nav>ul li {
@@ -59,8 +70,9 @@ header>nav>ul>li>a {
 
 
 .dropdown-menu i{
+	margin-top: 5px;
 	float: right;
-	font-size: 15px;
+	font-size: 13px;
 	color: white;
 }
 ul li:hover ul {
@@ -73,6 +85,9 @@ ul li ul {
 	top: 100%;
 	width: 150px;
 	display: none;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
 }
 
 ul li ul li {
@@ -190,6 +205,11 @@ i{
 
 
 
+.footer{
+	position: relative;
+}
+
+
 .footer .left-side{
 	width: 500px;
 	float: left;
@@ -224,3 +244,20 @@ i{
 .hrlol{
 	margin: 75px 0px;
 }
+
+footer{
+	width: 100vw;
+	position: absolute;
+	bottom: -555px;
+	background-color: #222931 ;
+	left: calc(-50vw + 50%);
+	text-align: right;
+}
+
+.sad{
+	margin: 0 auto;
+	width: 1000px;
+	margin-bottom: 13px;
+	color: white;
+}
+
