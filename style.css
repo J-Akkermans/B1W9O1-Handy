@@ -187,22 +187,6 @@ ul li ul li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ribbon{
 	width: 100vw;
 	position: relative;
@@ -234,7 +218,6 @@ ul li ul li a {
 	padding: 8px 30px;
 	border: none;
 	font-size: 12px;
-	font-weight: ;
 	text-transform: uppercase;
 	float: right;
 }
@@ -249,7 +232,6 @@ ul li ul li a {
 	padding: 8px 30px;
 	border: none;
 	font-size: 12px;
-	font-weight: ;
 	text-transform: uppercase;
 	float: right;
 }
@@ -353,3 +335,27 @@ footer{
 	margin:  0;
 }
 
+.ribbon-container > h2{
+	font-size: 34px;
+}
+
+.tekst h3{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.tekst p{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer h3{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.footer p{
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 400;
+}
