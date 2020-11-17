@@ -35,7 +35,7 @@ Alternate: #aeb6be /* Licht grijs */
 
 
 
-Alternate 2: #ffffff; /* Wit */
+Alternate 2: #  ; /* Wit */
 
 - Menu items tekst
 - Banner boven tekst

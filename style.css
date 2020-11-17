@@ -19,6 +19,7 @@ p, span{
 	max-width: 1000px;
 	margin: 0 auto;
 	position: relative;
+	z-index: 0;
 }
 
 header {
@@ -96,11 +97,22 @@ ul li ul li {
 	color: grey;
 }
 
+
+
 ul li ul li a {
 	display: block;
+	color: grey ;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 10;
+	padding-left: 0;
+	margin-left: 10px;
 }
 
-
+.dropdown-content li:nth-of-type(3){
+	padding: 0;
+}
 
 .hero-img{
 	width: 100vw;
@@ -213,7 +225,7 @@ ul li ul li a {
 
 
 
-.ribbon-container > a button{
+.ribbon-container > button a{
 	background-color: white;
 	padding: 8px 30px;
 	border: none;
@@ -221,19 +233,36 @@ ul li ul li a {
 	text-transform: uppercase;
 	float: right;
 }
+
+
+
 
 .ribbon-container > p{
 	margin-left: 10px;
 }
+.ribbon-container button{
+	margin-top: 30px;
+	line-height: 20px;
+	float: right;
+	border: none;
+}
+
+.ribbon-container button a:hover{
+	float: right;
+	border: none;
+	background-color: #aeb6be ;
+	color: white;
+}
+
+
+
 
 .button-link{
-	margin-top: 35px;
-	background-color: white;
-	padding: 8px 30px;
 	border: none;
 	font-size: 12px;
 	text-transform: uppercase;
-	float: right;
+	text-decoration: none;
+	color: black;
 }
 
 
@@ -268,10 +297,29 @@ i{
 	align-items: center;
 	background-color:yellow;
 	width: 300px;
+	z-index: 10;
 	height: 90px;
 }
 
+.oof > a{
+	z-index: 10;
+	background-color: gray;
+	color: white;
+}
 
+.test{
+	color: #222931 ;
+	text-decoration: none;
+}
+
+.test:hover{
+	background-color: gray;
+	color: white;
+}
+.test:hover i{
+
+	color: white;
+}
 
 
 .footer{
@@ -352,10 +400,13 @@ footer{
 .footer h3{
 	font-size: 24px;
 	font-weight: 600;
+	color: #5f656d ;
 }
 
 .footer p{
 	line-height: 18px;
 	font-size: 12px;
 	font-weight: 400;
+	color: #5f656d;
 }
+
