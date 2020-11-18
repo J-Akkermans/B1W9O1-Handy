@@ -250,10 +250,12 @@ ul li ul li a {
 .ribbon-container button a:hover{
 	float: right;
 	border: none;
-	background-color: #aeb6be ;
+	background-color: #222931 ;
 	color: white;
 }
-
+.oof2:hover{
+	background-color: #222931 ;
+}
 
 
 
@@ -408,5 +410,62 @@ footer{
 	font-size: 12px;
 	font-weight: 400;
 	color: #5f656d;
+}
+
+
+.tekst-dienst{
+	height: 400px;
+}
+
+.tekst-dienst p:nth-of-type(1){
+	margin: 0;
+}
+
+.tekst-dienst h1:nth-of-type(1){
+	margin-top: 50px;
+}
+
+.tooltiptext{
+	color: red;
+}
+
+.tooltip {
+	position: relative;
+	color: #ffe718;
+	display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 250px;
+	background-color: #aeb6be;
+	color: #fff;
+	padding: 10px 10px;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 10;
+	top: 100%;
+	left: 50%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .breadcrumb{
+	font-size: 12px;
+	font-weight: 400;
+  }
+
+  .tekst-dienst{
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #222931
+  }
+
+  .tekst-dienst p:nth-of-type(1){
+	margin: 0;
 }
 
