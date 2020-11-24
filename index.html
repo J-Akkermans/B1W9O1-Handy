@@ -1,150 +1,152 @@
 <!DOCTYPE html>
-<html lang="NL">
+<html lang="en">
 <head>
-	<title>Davinci Handy</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <title>Handy</title>
 </head>
 <body>
-	<div class="main">
-		<header>
+    <div class="mainDiv">
+        <header>
 			<img src="img/logo.jpg" alt="top-logo">
-			<nav>
+			<nav class="primaryBGC lineHeight">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li class="dropdown-menu">Over Ons <i class="fa fa-arrow-down" aria-hidden="true"></i>
-						<ul class="dropdown-content">
-							<li>Geschiedenis</li>
-							<li>Deals</li>
-							<li><a href="Diensten.html">Diensten</a></li>
+					<li><a class="cWhite upperCase" href="#">Home</a></li>
+					<li class="dropdown-menu cWhite upperCase">Over Ons <i class="fa fa-arrow-down cWhite lineHeight" aria-hidden="true"></i>
+						<ul class="dropdown-content lineHeight">
+							<li class="textGrey primaryBGC">Geschiedenis</li>
+							<li class="textGrey primaryBGC">Deals</li>
+							<li class="textGrey primaryBGC"><a class="textGrey" href="Diensten.html">Diensten</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Nieuws</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a class="cWhite upperCase primaryBGC" href="#">Portfolio</a></li>
+					<li><a class="cWhite upperCase primaryBGC" href="#">Nieuws</a></li>
+					<li><a class="cWhite upperCase primaryBGC" href="#">Contact</a></li>
 				</ul>
 			</nav>
-		</header>
-				<img  class="hero-img" src="img/header.jpg" alt="AAAAAAAA">
+        </header>
 
-		<section class="cards">
-			<div class="row">
-				<div class="overlay-test-1">
-					<div class="child-1">
-						<p>Geschiedenis</p>
-					</div>
-				</div>
-				<div class="overlay-test-2">
-					<div class="child-2">
-						<p>Deals</p>
-					</div>
-				</div>
-				<a href="diensten.html">
-				<div class="overlay-test-3">
-					<div class="child-3">
-						<p>Diensten</p>
-					</div>
-				</div>
-			</a>
+        <figure>
+            <img src="img/header.jpg" alt="headerIMG" class="hero-img fullWidth">
+        </figure>
+
+        <!-- BannerItems -->
+        <section class="bannerItems">
+            <div class="row">
+                <div class="banner-1">
+                    <div class="banner-hover">
+                        <p class="bannerTekst cWhite upperCase">Geschiedenis</p>
+                    </div>
+                </div>
+                <div class="banner-2">
+                    <div class="banner-hover">
+                        <p class="bannerTekst cWhite upperCase">Deals</p>
+                    </div>
+                </div>
+                <div class="banner-3">
+                    <div class="banner-hover">
+                        <a href="diensten.html"><p class="bannerTekst cWhite upperCase">Diensten</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ribbon -->
+        <section class="ribbon yellowBGC fullWidth">
+			<div class="ribbon-container cPrimary">
+					<h2 class="kopTekst">Wij bouwen oplossingen</h2>
+                    <p>Die echt werken...</p>
+                    <button class="upperCase button-link borderNone" onclick="location.href='diensten.html'" type="button">
+                        Diensten
+                    </button>
 			</div>
-		</section>
-		
-		<section class="ribbon">
-			<div class="ribbon-container">
-					<h2>Wij bouwen oplossingen </h2>
-					<p>Die echt werken...</p>
-					
-						<button>
-							<a href="#" class="button-link">
-								meer weten?
-							</a>
-						</button>
-					</a>
-			
-			</div>
-		</section>
+        </section>
+        
+        <figure>
+            <img src="img/footer.jpg" alt="footer image" class="fullWidth footerImg"">
+        </figure>
+        <section class="ribbon-items">
+            <div class="rowX">
+            <div class="cPrimary yellowBGC ribbonFlex footerHover">
+                <i class="far fa-handshake fontSizeRibbonIcon"></i>
+                <div class="ribbonFloat">
+                <h2 class="kopTekstBanner upperCase ">
+                    Deals
+                </h2>
+                <p class="upperCase pSmallBannerText">
+                    Bekijk ozne deals
+                </p>
+                </div>
+            </div>
+            <a class="ribbonA cPrimary" href="diensten.html">
+            <div class="yellowBGC ribbonFlex footerHover">
+                <i class="fas fa-toolbox fontSizeRibbonIcon"></i>
+                <div class="ribbonFloat">
+                <h2 class="kopTekstBanner upperCase tekstWeight600">
+                    Diensten
+                </h2>
+                <p class="upperCase pSmallBannerText tekstWeight600">
+                    bekijk onze diensten
+                </p>
+                </div>
+            </div>
+        </a>
+            <div class=" cPrimary yellowBGC ribbonFlex footerHover">
+                <i class="far fa-envelope fontSizeRibbonIcon"></i>
+                <div>
+                <h2 class="upperCase kopTekstBanner">
+                    Contact
+                </h2>
+                <p class="upperCase pSmallBannerText tekstWeight600">
+                    Stuur een bericht
+                </p>
+                </div>
+            </div>
+        </div>
+        </section>
 
 
-		<section class="footer-img">
-			<img src="img/footer.jpg" alt="AAAAA">
-			<div class="row2">
-				<div class="oof">
-					<i class="far fa-handshake"></i>
-					<div class="tekst">
-						<h3>Deals</h3>
-						<span>Bekijk onze deals</span>
-					</div>
-				</div>
-				<a href="diensten.html" class="test">
-				<div class="oof oof2">
-					<i class="fas fa-toolbox"></i>
-					<div class="tekst">
-						<h3>Diensten</h3>
-						<span>Bekijk onze diensten</span>
-					</div>
-				</div>
-			</a>
-				<div class="oof">
-					<i class="far fa-envelope"></i>
-					<div class="tekst">
-						<h3>Deals</h3>
-						<span>Stuur een bericht</span>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="footer">
-			<hr class="hrlol">
-			<div class="left-side">
-				<h3>Over ons</h3>
-				<p>
-					LLorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
-					odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
-					tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
-					error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
-					quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum! Lorem 
-					ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
-					odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
-					tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
-					error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
-					quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum!
-				</p>
-			</div>
-			<div class="right-side">
-				<h3>Contact</h3>
-				<div class="contact">
+        <hr>
+        <section class="footerContent">
+            <div class="tekstFooter">
+                <h2 class="tekstWeight600 fontSizeFooter">Over oplossingen</h2>
+                <p class="marginTekst textGrey">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+                    odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+                    tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+                    error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+                    quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum! Lorem 
+                    ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+                    odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+                    tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+                    error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+                    quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum!
+                </p>
+            </div>
+            <div class="right-side">
+				<h3 class="fontSizeFooter tekstWeight600 ">Contact</h3>
+				<div class="parentP tekstSizeFooter textGrey">
 					<i class="fas fa-map-marker-alt"></i>
 					<p>Romboutslaan 34 <br> 3312 KP Dordrecht</p>
 				</div>
-				<div class="contact">
+				<div class="parentP tekstSizeFooter textGrey">
 					<i class="fas fa-mobile-alt"></i>
 					<p>078 - 699 9999 </p>
 				</div>
-				<div class="contact">
+				<div class="parentP tekstSizeFooter textGrey">
 					<i class="far fa-envelope-open"></i>
 					<p>info@davinci-handy.nl</p>
 				</div>
 			</div>
+        </section>
 
-			
-			
-			
-		</section>
-
-		<footer>
-			<div class="sad">
-				<p class="footerNaam">© Jenna Akkermans, 2020</p>
-			</div>
+        <footer class="fullWidth primaryBGC">
+            <div class="center">
+				<p class="footerNaam tekstSizeFooter cWhite">© Jenna Akkermans, 2020</p>
+            </div>
 		</footer>
-
-
-
-
-	</div>
+    </div>
 </body>
 </html>
