@@ -28,14 +28,8 @@ Het resultaat van je opdracht plaats je uiteraard op GitHub, de link naar de Git
 * Je html en css zijn netjes uitgelijnd
 * Je kunt door middel van Paint, Gimp of Paint.net de afstanden en afmetingen van de elementen meten.
 * Je maakt gebruik van alle kennis die je al hebt
-* Het gebruikte font is Archivo. Dit font is via google beschikbaar https://fonts.google.com/specimen/Archivo. Druk rechts op de rode tekst "select this font" voor instructies, selecteer onder 'customize' alle fonts.
-
-
-* De font size van de tekst in de footer is 12 px en de regel hoogte is 18 px en een tekst dikte van 400
-
-
-
-//Tekst page
+* Het gebruikte font is Archivo. Dit font is via google beschikbaar https://fonts.google.com/specimen/Archivo. Druk rechts op de rode tekst "select this font" voor 
+* De font size van de koptekst op de tekstpagina is 34px en een tekst dikte van 600
 * De font size van de breadcrumb is 12px en een tekst dikte van 400
 * De breedte van alle banner blokjes is 300 px
 * De kleurcodes vind je in het project
